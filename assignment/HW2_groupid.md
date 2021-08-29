@@ -28,18 +28,18 @@ Code here
 
 5.) Descriptive statistics Statement
 ```{R}
-Code here
+table(survey$Sex)
 ```
 
-6.) Descriptive statistics Statement
+6.) หาว่ามีชาย/หญิงกี่คน
 ```{R}
-Code here
+table(survey$Sex)
 ```
 
 
-7.) Descriptive statistics Statement
+7.) หาว่ามีคนเขียนด้วยมือซ้าย/ขวาอย่างละกี่คน
 ```{R}
-Code here
+table(survey$W.Hnd)
 ```
 
 
