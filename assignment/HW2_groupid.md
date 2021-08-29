@@ -39,15 +39,19 @@ min(cats$Bwt)
 # 2
 ```
 
-6.) Descriptive statistics Statement
+6.) หาว่ามีชาย/หญิงกี่คน
 ```{R}
-Code here
+table(survey$Sex)
+#Female   Male 
+#   118    118 
 ```
 
 
-7.) Descriptive statistics Statement
+7.) หาว่ามีคนเขียนด้วยมือซ้าย/ขวาอย่างละกี่คน
 ```{R}
-Code here
+table(survey$W.Hnd)
+# Left Right 
+#   18   218 
 ```
 
 
