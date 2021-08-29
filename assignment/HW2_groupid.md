@@ -43,20 +43,20 @@ Code here
 ```
 
 
-8.) Descriptive statistics Statement
+8.) หาอายุเฉลี่ยของนักเรียนทั้งหมด
 ```{R}
-Code here
+mean(survey$Age)
 ```
 
 
-9.) Descriptive statistics Statement
+9.) หาจำนวนคนที่ไม่เคยสูบบุหรี่
 ```{R}
-Code here
+table(survey$Smoke == "Never")
 ```
 
-10.) Descriptive statistics Statement
+10.) หาความสูงที่มากที่สุด
 ```{R}
-Code here
+max(survey$Height,na.rm = TRUE)
 ```
 
 
