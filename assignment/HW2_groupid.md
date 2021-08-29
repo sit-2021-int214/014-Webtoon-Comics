@@ -28,7 +28,7 @@ Code here
 
 5.) Descriptive statistics Statement
 ```{R}
-table(survey$Sex)
+
 ```
 
 6.) หาว่ามีชาย/หญิงกี่คน
