@@ -14,6 +14,52 @@ Code here
 ```
 
 
+3.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+
+4.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+
+5.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+6.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+
+7.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+
+8.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+
+9.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+10.) Descriptive statistics Statement
+```{R}
+Code here
+```
+
+
 Team: คณิตคิดในใจ เลยนอกใจใครไม่เป็น
 
 ชมกนก ชื่นประไพ StudentID: 63130500016 <br>
