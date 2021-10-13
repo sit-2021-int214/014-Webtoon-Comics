@@ -1,11 +1,33 @@
 # 014-Trending YouTube Video Statistics
 Datasets from: https://www.kaggle.com/datasnaek/youtube-new
 
-## Objective
+### About's Trending YouTube Video Statistics
 
-## Process
+### Objects
 
-## Result
+### Steps
+1. Define a question
+2. Search datasets from Kaggle
+3. Download Library and dataset
+4. Explore the dataset from the original dataset
+5. Cleaning Dataset
+6. Exploratory Data Analysis
+
+
+### Tools
+- R Language
+- R Studio Desktop
+
+## Table of Contents
+1.
+2.
+
+
+## Resources
+### Important Files in Repository
+
+
+### References
 
 ## About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี
