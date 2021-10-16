@@ -43,4 +43,9 @@ Result
 ```
  id                    Name   Writer    Likes         Genre Rating Subscribers
 1 327 My Giant Nerd Boyfriend fishball 50600000 Slice of life   9.73     2100000
+                                                                                                                                                                                                                                           Summary
+1 Having a boyfriend who's a full foot taller than you might seem adorable at first, but it usually just ends up causing a whole bunch of minor inconveniences. Follow Fishball as she navigates the Malaysian life with her 6'5" geeky boyfriend.
+                  Update                                                                        Reading.Link
+1 UP EVERY MON, WED, FRI https://www.webtoons.com/en/slice-of-life/my-giant-nerd-boyfriend/list?title_no=958
+
 ```
