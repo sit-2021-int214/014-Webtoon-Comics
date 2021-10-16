@@ -36,7 +36,7 @@ webToon <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/014-Webto
 Explain here
 
 ```
-webToon %>% filter(Likes == max(Likes,na.rm = TRUE));
+webToon %>% filter(Likes == max(Likes,na.rm = TRUE))
 ```
 
 Result
