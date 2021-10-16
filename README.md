@@ -25,6 +25,7 @@ There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscr
 ### Tools
 - R Language
 - R Studio Desktop
+- Google Sheets
 
 ## Table of Contents
 1. [Exploratory Data Analysis](midterm/exploratory.md)
@@ -34,8 +35,8 @@ There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscr
 ## Resources
 ### Important Files in Repository
 - Exploratory Data Analysis.md : [code_eda.R]()
-- Original Dataset : [Webtoon_Datset_original.csv](Webtoon_Dataset.csv) 
-- Clean Dataset : [Webtoon_clean.csv](Webtoon_clean.csv)
+- Original Dataset : [Webtoon_Datset_original.csv](midterm/Webtoon_Dataset.csv) 
+- Clean Dataset : [Webtoon_clean.csv](midterm/Webtoon_clean.csv)
 
 ### References
 
