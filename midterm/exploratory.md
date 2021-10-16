@@ -29,7 +29,9 @@ library(stringr)
 library(assertive)
 
 #dataset
-webToon <- read.csv("https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/c3ff6ad7e4591a24a131f93d852d42e10248032a/Webtoon_clean.csv")
+#dataset
+webToon <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/014-Webtoon-Comics/main/Webtoon_clean.csv")
+View(webToon)
 ```
 
 ## 1. การ์ตูนเรื่องที่มียอดไลค์มากที่สุด 
