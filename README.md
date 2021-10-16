@@ -1,11 +1,16 @@
-# 014-Webtoon Dataset
+# 014-Webtoon Comics Dataset
 Datasets from: https://www.kaggle.com/swarnimrai/webtoon-comics-dataset
 
-### About's Webtoon Dataset
-Webtoon is the largest Web-comic community in the world, averaging more than 50 million monthly active users, with 10 million daily readers. Many people want to make a recommendation system for it or analyze its data. Therefore, I scrapped the information of more than 500 webtoon originals and uploaded it for anyone to use.
+### About's Webtoon Comics Dataset
+This is a dataset is a collection of Webtoon Original series. 
+There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscribers,Summary,Update,Reading Link.
 
 ### Objects
-
+1.นิยายเรื่องที่มียอดไลค์มากที่สุด
+2.นิยายเรื่องที่มียอด Subscriber มากที่สุด
+3.หมวดหมู่ของนิยาย
+4.นิยายเรื่องที่อัปเดตทุกวันจันทร์
+5.ผู้แต่ง Taejun Pak เขียนเรื่องไหนบ้าง
 ### Steps
 1. Define a question
 2. Search datasets from Kaggle
