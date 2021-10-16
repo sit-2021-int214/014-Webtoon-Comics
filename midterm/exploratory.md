@@ -29,7 +29,6 @@ library(stringr)
 library(assertive)
 
 #dataset
-#dataset
 webToon <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/014-Webtoon-Comics/main/Webtoon_clean.csv")
 View(webToon)
 ```
