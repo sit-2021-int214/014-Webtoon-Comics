@@ -17,7 +17,7 @@ Dataset from : [webtoon_clean.csv](https://github.com/sit-2021-int214/014-Webtoo
 2. การ์ตูนเรื่องที่มียอด Subscriber มากที่สุด 
 3. จำนวนการ์ตูนทั้งหมดของแต่ละหมวดหมู่
 4. การ์ตูนเรื่องที่อัปเดตครบทุกตอนแล้วและมี rating มากกว่า 9.50
-5. ผู้แต่ง Taejun Pak เขียนการ์ตูนเรื่องไหนบ้าง
+5. ผู้แต่ง Seokwoo เขียนการ์ตูนเรื่องไหนบ้าง
 
 
 ## Step 0 Loading library and dataset
@@ -70,7 +70,7 @@ maxSubscribers %>% summarise(id,Name,Subscribers) #ให้แสดงแค�
 Result
 
 ```   
-id                 Name Subscribers
+   id                 Name Subscribers
 1 214 Everywhere & Nowhere     7506000
 ```
 
@@ -258,10 +258,16 @@ Result
 Explain here
 
 ```
-
+Seokwoo_writer <- webToon %>% filter(webToon$Writer == "Seokwoo", na.rm = TRUE)
+Seokwoo_writer %>% summarise(Name,Writer,Likes,Genre,Rating)
 ```
 
 Result
 
+```
+              Name  Writer   Likes   Genre Rating
+1   She's Hopeless Seokwoo  669600   Drama   9.66
+2     Days of Hana Seokwoo 1000000   Drama   9.77
+3 ORANGE MARMALADE Seokwoo  987300 Romance   9.68
 ```   
 
