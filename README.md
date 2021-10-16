@@ -6,11 +6,12 @@ This is a dataset is a collection of Webtoon Original series.
 There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscribers,Summary,Update,Reading Link.
 
 ### Objects
-1.การ์ตูนเรื่องที่มียอดไลค์มากที่สุด <br>
-2.การ์ตูนเรื่องที่มียอด Subscriber มากที่สุด <br>
-3.จำนวนการ์ตูนทั้งหมดของแต่ละหมวดหมู่ <br>
-4.การ์ตูนเรื่องที่อัปเดตครบทุกตอนแล้ว <br>
-5.ผู้แต่ง Taejun Pak เขียนการ์ตูนเรื่องไหนบ้าง
+1. การ์ตูนเรื่องที่มียอดไลค์มากที่สุด 
+2. การ์ตูนเรื่องที่มียอด Subscriber มากที่สุด 
+3. จำนวนการ์ตูนทั้งหมดของแต่ละหมวดหมู่ 
+4. การ์ตูนเรื่องที่อัปเดตครบทุกตอนแล้ว
+5. ผู้แต่ง Taejun Pak เขียนการ์ตูนเรื่องไหนบ้าง
+
 
 ### Steps
 1. Define a question
