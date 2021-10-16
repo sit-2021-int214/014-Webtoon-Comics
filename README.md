@@ -6,6 +6,8 @@ This is a dataset is a collection of Webtoon Original series.
 There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscribers,Summary,Update,Reading Link.
 
 ### Objects
+  กลุ่มของเราเลือกชุดข้อมูลนี้เพราะ ต้องการศึกษาว่านิยายแนวไหนที่ได้รับความนิยมมากที่สุด
+  
 1. การ์ตูนเรื่องที่มียอดไลค์มากที่สุด 
 2. การ์ตูนเรื่องที่มียอด Subscriber มากที่สุด 
 3. จำนวนการ์ตูนทั้งหมดของแต่ละหมวดหมู่
