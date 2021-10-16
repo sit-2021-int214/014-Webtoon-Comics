@@ -1,6 +1,6 @@
 # Webtoon Dataset
 
-Dataset from [webtoon_clean.csv](.Webtoon Dataset - Webtoon Dataset.csv)
+Dataset from [webtoon_clean.csv](./Webtoon Dataset - Webtoon Dataset.csv)
 
 
 ### My Step
