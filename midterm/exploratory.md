@@ -35,6 +35,16 @@ webToon <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/014-Webto
 
 Explain here
 
+เปลี่ยน Webtoon$Likes จาก character เป็น numberic และเช็คว่าเปลี่ยนเป็น numberic แล้ว
+
+```
+webToon$Likes <- as.numeric(webToon$Likes)
+is.numeric(webToon$Likes)
+
+```
+
+
+หานิยายเรื่องที่มียอดไลค์มากที่สุด 
 ```
 webToon %>% filter(Likes == max(Likes,na.rm = TRUE))
 ```
