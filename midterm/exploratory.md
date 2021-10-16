@@ -73,7 +73,8 @@ comicGenre %>% summarise(comicGenre)
 
 Result
 
-```           Genre Amount
+```           
+           Genre Amount
 1         Action     47
 2         Comedy     52
 3          Drama     60
