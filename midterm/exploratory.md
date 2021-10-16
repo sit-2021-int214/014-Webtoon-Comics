@@ -4,7 +4,6 @@ Dataset from : [webtoon_clean.csv](https://github.com/sit-2021-int214/014-Webtoo
 
 
 ### My Step
-
 1. Define a question
 2. Search datasets from Kaggle
 3. Download Library and dataset
@@ -30,3 +29,18 @@ library(tidyr)
 
 #dataset
 webToon <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/014-Webtoon-Comics/main/Webtoon%20Dataset%20-%20Webtoon%20Dataset.csv")
+
+## 1.นิยายเรื่องที่มียอดไลค์มากที่สุด 
+
+Explain here
+
+```
+webToon %>% filter(Likes == max(Likes,na.rm = TRUE));
+```
+
+Result
+
+```
+ id                    Name   Writer    Likes         Genre Rating Subscribers
+1 327 My Giant Nerd Boyfriend fishball 50600000 Slice of life   9.73     2100000
+```
