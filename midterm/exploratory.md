@@ -1,6 +1,6 @@
 # Webtoon Dataset
 
-Dataset from : [webtoon_clean.csv](./Webtoon_clean.csv)
+Dataset from : [webtoon_clean.csv](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/Webtoon_clean.csv)
 
 
 ### My Step
