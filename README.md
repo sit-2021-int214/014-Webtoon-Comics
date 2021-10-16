@@ -1,7 +1,8 @@
-# 014-Trending YouTube Video Statistics
-Datasets from: https://www.kaggle.com/datasnaek/youtube-new
+# 014-Webtoon Dataset
+Datasets from: https://www.kaggle.com/swarnimrai/webtoon-comics-dataset
 
-### About's Trending YouTube Video Statistics
+### About's Webtoon Dataset
+Webtoon is the largest Web-comic community in the world, averaging more than 50 million monthly active users, with 10 million daily readers. Many people want to make a recommendation system for it or analyze its data. Therefore, I scrapped the information of more than 500 webtoon originals and uploaded it for anyone to use.
 
 ### Objects
 
