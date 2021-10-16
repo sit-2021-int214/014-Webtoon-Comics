@@ -25,7 +25,7 @@ There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscr
 - R Studio Desktop
 
 ## Table of Contents
-1.
+1. https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/midterm/exploratory.md
 2.
 
 
