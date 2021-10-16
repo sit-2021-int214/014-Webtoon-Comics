@@ -25,7 +25,8 @@ Dataset from : [webtoon_clean.csv](https://github.com/sit-2021-int214/014-Webtoo
 ```
 #library
 library(dplyr)
-library(tidyr)
+library(stringr)
+library(assertive)
 
 #dataset
 webToon <- read.csv("https://raw.githubusercontent.com/sit-2021-int214/014-Webtoon-Comics/main/Webtoon%20Dataset%20-%20Webtoon%20Dataset.csv")
