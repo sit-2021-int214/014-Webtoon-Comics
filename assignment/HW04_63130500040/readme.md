@@ -4,6 +4,9 @@ Create by Tripuwarej Paweenasombat, ID:63130500040
 ## Dataset
 Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, [Kaggle](https://www.kaggle.com/thomaskonstantin/top-270-rated-computer-science-programing-books)) >> [Using CSV](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv)
 
+> __This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.__
+
+
 ## Outlines
 1. Explore the dataset
 2. Learning function from Tidyverse
@@ -38,18 +41,23 @@ $ Type            <chr> "Hardcover", "Hardcover", "Kindle Edition", "Hardcover",
 $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14.188235,~
 ```
 
-> __This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.__
+## Context
+>> This dataset holds a list of 270 books in the field of computer science and programming related topics.
+The list of books was constructed using many popular websites which provide information on book ratings an of all the book in those websites the 270 most popular were selected.
+
+## Content
+>> Inside that dataset, you will find general information about the book including the number of pages in the book, the book types, the book descriptions, and the book prices.
  
  
 | No | columns | type | explanation |
 | :---- | :---- | :----: | ----: |
-| 1 || Rating | numeric | https://www.facebook.com/borntodev |
-| 2 || Reviews | numeric | https://www.youtube.com/c/BorntodevTH |
-| 3 || Book_title | character | https://www.instagram.com/borntodev |
-| 4 || Description | character | https://www.facebook.com/borntodev |
-| 5 || Number_Of_Pages | numeric | https://www.youtube.com/c/BorntodevTH |
-| 6 || Type | character | https://www.instagram.com/borntodev |
-| 7 || Price | numeric | https://www.instagram.com/borntodev |
+| 1 | Rating | numeric | แสดง |
+| 2 | Reviews | numeric | https://www.youtube.com/c/BorntodevTH |
+| 3 | Book_title | character | https://www.instagram.com/borntodev |
+| 4 | Description | character | https://www.facebook.com/borntodev |
+| 5 | Number_Of_Pages | numeric | https://www.youtube.com/c/BorntodevTH |
+| 6 | Type | character | https://www.instagram.com/borntodev |
+| 7 | Price | numeric | https://www.instagram.com/borntodev |
  
  
  
