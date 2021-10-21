@@ -6,14 +6,15 @@ __Top 270 Computer Science / Programing Books__ (Data from Thomas Konstantin, [K
 
   (This dataset is high rated book information in the field of computer science and programing.)
 
-## Outlines
+
+### Outlines
 1. Explore the dataset
 2. Learning function from Tidyverse
 3. Transform data with dplyr and finding insight the data
 4. Visualization with GGplot2 <br />
 
 
-# 1. Explore the dataset <br />
+## 1. Explore the dataset
 ```
 # Library
 library(dplyr)
@@ -59,7 +60,7 @@ The list of books was constructed using many popular websites which provide info
 | 7 | Price | numeric | ราคาเฉลี่ยของหนังสือในสกุลเงิน USD ซึ่งค่าเฉลี่ยคำนวณตามแหล่งที่มาของเว็บทั้ง 5 แห่ง |
  
  
- 
+## 
  
  
  
