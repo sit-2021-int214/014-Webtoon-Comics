@@ -117,17 +117,17 @@ webToon %>% select(id,Name,Genre,Rating) %>%filter(webToon$Update == "COMPLETED"
 Result
 
 ```           
-                               Name         Genre Rating
-1                       The Horizon         Drama   9.84
-2                My Life as a Loser         Drama   9.77
-3                   Her Bucket List       Romance   9.72
-4                       Dark Mortal         Drama   9.79
-5                           Bastard      Thriller   9.87
-6            A Good Day to be a Dog       Romance   9.84
-7                           SAVE ME         Drama   9.87
-8                       Your Letter         Drama   9.93
-9                      Days of Hana         Drama   9.77
-10              Where Tangents Meet       Romance   9.74
+     id                            Name         Genre Rating
+1    80                     The Horizon         Drama   9.84
+2    83              My Life as a Loser         Drama   9.77
+3    85                 Her Bucket List       Romance   9.72
+4    87                     Dark Mortal         Drama   9.79
+5    88                         Bastard      Thriller   9.87
+6    90          A Good Day to be a Dog       Romance   9.84
+7    91                         SAVE ME         Drama   9.87
+8    93                     Your Letter         Drama   9.93
+9    95                    Days of Hana         Drama   9.77
+10   96             Where Tangents Meet       Romance   9.74
 # ... with 119 more rows
 ```
 
