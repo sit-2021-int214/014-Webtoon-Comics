@@ -28,7 +28,7 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 # viewdataset
 glimpse(book)
 ```
-__Result__
+##### Result
 ```
 Rows: 271
 Columns: 7
@@ -65,10 +65,25 @@ Tidyverse คือ การรวบรวม collection R packages โดย�
 
 ##### Example
 ```
-
+as_tibble(book)
 ```
- 
- 
+##### Result
+```
+# A tibble: 271 x 7
+   Rating Reviews Book_title Description Number_Of_Pages Type  Price
+    <dbl>   <dbl> <chr>      <chr>                 <dbl> <chr> <dbl>
+ 1   4.17    3829 The Eleme~ "This styl~             105 Hard~  9.32
+ 2   4.01    1406 The Infor~ "James Gle~             527 Hard~ 11   
+ 3   3.33       0 Responsiv~ "In Respon~              50 Kind~ 11.3 
+ 4   3.97    1658 Ghost in ~ "If they w~             393 Hard~ 12.9 
+ 5   4.06    1325 How Googl~ "Both Eric~             305 Kind~ 13.2 
+ 6   3.84     117 The Meme ~ "What is a~             288 Pape~ 14.2 
+ 7   4.09    5938 Start wit~ "Why do yo~             256 Hard~ 14.2 
+ 8   4.15    1817 Algorithm~ "A fascina~             368 Hard~ 14.4 
+ 9   3.87    2093 Weapons o~ "A former ~             259 Hard~ 14.5 
+10   4.62       0 ZX Spectr~ "This book~             128 Pape~ 14.6 
+# ... with 261 more rows
+```
  
 ## Resources 
 ### Important Files in Repository
