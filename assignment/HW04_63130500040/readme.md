@@ -61,7 +61,7 @@ The list of books was constructed using many popular websites which provide info
  
  
 ## Part 2 : Learning function from Tidyverse
-Tidyverse คือ การรวบรวม collection R packages โดยมี package สำหรับการทำ data science แบบครบวงจร ตั้งแต่การ import data, tidy data, data manipulation ไปจนถึง visualization
+__Tidyverse__ คือ การรวบรวม collection R packages โดยมี package สำหรับการทำ data science แบบครบวงจร ตั้งแต่การ import data, tidy data, data manipulation ไปจนถึง visualization
 
 ##### Example
 ```
@@ -84,7 +84,7 @@ as_tibble(book)
 10   4.62       0 ZX Spectr~ "This book~             128 Pape~ 14.6 
 # ... with 261 more rows
 ```
-ข้อมูลที่เห็นอยู่ในรูปแบบที่เรียกว่า tibble data format ซึ่งจะโชว์ข้อมูลของแค่ 10 แถวแรกเท่านั้น และจำนวนคอลัมน์ขึ้นอยู่กับความกว้างหน้าจอของเรา บรรทัดบนสุดเราจะเห็นข้อความลักษณะนี้:
+ข้อมูลที่เห็นอยู่ในรูปแบบที่เรียกว่า __tibble data format__ ซึ่งจะโชว์ข้อมูลของแค่ 10 แถวแรกเท่านั้น และจำนวนคอลัมน์ขึ้นอยู่กับความกว้างหน้าจอของเรา บรรทัดบนสุดเราจะเห็นข้อความลักษณะนี้ :
 ```
 # A tibble: 271 x 7
 ```
