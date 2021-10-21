@@ -59,7 +59,8 @@ The list of books was constructed using many popular websites which provide info
 | 6 | Type | character | แสดงประเภทของหนังสือ เช่น หนังสือปกแข็ง หรือ ebook หรือ Kindle book เป็นต้น |
 | 7 | Price | numeric | แสดงราคาเฉลี่ยของหนังสือในสกุลเงิน USD ซึ่งค่าเฉลี่ยคำนวณตามแหล่งที่มาของเว็บทั้ง 5 แห่ง |
  
- 
+
+___
 ## Part 2 : Learning function from Tidyverse
 __Tidyverse__ คือ การรวบรวม collection R packages โดยมี package สำหรับการทำ data science แบบครบวงจร ตั้งแต่การ import data, tidy data, data manipulation ไปจนถึง visualization
 
@@ -90,12 +91,12 @@ as_tibble(book)
 ```
 ตรงนี้บอกเราว่า ข้อมูลเรามี 271 rows (หรือ observations) และ มี 10 columns
 
-
+___
 ## Part 3 : Transform data with dplyr and finding insight the data
 
 
 
-
+___
 ## Part 4 : Visualization with GGplot2
 
 
