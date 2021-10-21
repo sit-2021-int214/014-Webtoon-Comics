@@ -3,7 +3,7 @@ Create by Tripuwarej Paweenasombat, ID:63130500040
 
 ## Dataset
 Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, [Kaggle](https://www.kaggle.com/thomaskonstantin/top-270-rated-computer-science-programing-books)) >> [Using CSV](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv)
-(This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.)
+  (This dataset is high rated book information in the field of computer science and programing.)
 
 ## Outlines
 1. Explore the dataset
@@ -44,7 +44,7 @@ $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14
 The list of books was constructed using many popular websites which provide information on book ratings an of all the book in those websites the 270 most popular were selected.
 
 ### Content
-> Inside that dataset, you will find general information about the book including the number of pages in the book, the book types, the book descriptions, and the book prices.
+> Inside that dataset, you will find general information about the book including the number of pages in the book, the book types, the book descriptions, and the book prices. There are 270 rows and 7 columns in this dataset
  
  
 | No | columns | type | explanation |
