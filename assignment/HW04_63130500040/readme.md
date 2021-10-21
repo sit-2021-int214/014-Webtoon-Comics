@@ -129,6 +129,80 @@ book %>% select(Book_title, Number_Of_Pages) %>% filter(book$Number_Of_Pages > 1
 
 ```
 
+__2. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+
+```
+meanPrice <- book$Price %>% mean
+meanPrice
+
+book %>% select(Book_title, Number_Of_Pages, Price) %>% filter(book$Price > meanPrice)
+
+```
+##### Result :
+```
+> meanPrice
+[1] 54.54186
+
+> book %>% select(Book_title, Number_Of_Pages, Price) %>% filter(book$Price > meanPrice)
+# A tibble: 105 x 3
+   Book_title                 Number_Of_Pages Price
+   <chr>                                <dbl> <dbl>
+ 1 Effective Programming: Mo~             283  54.7
+ 2 Building Microservices: D~             262  54.9
+ 3 Exceptional C++: 47 Engin~             208  56.1
+ 4 Reviewing Java                         658  56.6
+ 5 Microsoft Visual C# Step ~             816  56.6
+ 6 Refactoring: Improving th~             431  57.2
+ 7 Growing Object-Oriented S~             345  57.2
+ 8 Modern C++ Design: Generi~             360  58.4
+ 9 Structure and Interpretat~             657  58.9
+10 Structure and Interpretat~             657  58.9
+# ... with 95 more rows
+```
+
+__3. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+
+```
+
+```
+##### Result :
+```
+
+```
+
+__4. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+
+```
+
+
+```
+##### Result :
+```
+
+```
+
+__5. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+
+```
+
+
+```
+##### Result :
+```
+
+```
+
+__6. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+
+```
+
+
+```
+##### Result :
+```
+
+```
+
 ___
 ## Part 4 : Visualization with GGplot2
 
