@@ -25,7 +25,7 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 # viewdataset
 glimpse(book)
 ```
-__output__
+__Result__
 ```
 Rows: 271
 Columns: 7
@@ -37,6 +37,10 @@ $ Number_Of_Pages <dbl> 105, 527, 50, 393, 305, 288, 256, 368, 259, 128, 352, 35
 $ Type            <chr> "Hardcover", "Hardcover", "Kindle Edition", "Hardcover", "Kindle~
 $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14.188235,~
 ```
+
+  This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset. <br />
+  
+ 
 
 ## Resources
 ### Important Files in Repository
