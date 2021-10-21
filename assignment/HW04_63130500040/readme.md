@@ -61,7 +61,7 @@ The list of books was constructed using many popular websites which provide info
  
  
 ## Part 2 : Learning function from Tidyverse
- 
+Tidyverse คือ การรวบรวม collection R packages โดยมี package สำหรับการทำ data science แบบครบวงจร ตั้งแต่การ import data, tidy data, data manipulation ไปจนถึง visualization
  
  
  
