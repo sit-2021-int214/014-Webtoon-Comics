@@ -3,9 +3,7 @@ Create by Tripuwarej Paweenasombat, ID:63130500040
 
 ## Dataset
 Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, [Kaggle](https://www.kaggle.com/thomaskonstantin/top-270-rated-computer-science-programing-books)) >> [Using CSV](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv)
-
-> This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.
-
+(This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.)
 
 ## Outlines
 1. Explore the dataset
@@ -51,13 +49,13 @@ The list of books was constructed using many popular websites which provide info
  
 | No | columns | type | explanation |
 | :---- | :---- | :----: | ----: |
-| 1 | Rating | numeric | แสดง |
-| 2 | Reviews | numeric | https://www.youtube.com/c/BorntodevTH |
-| 3 | Book_title | character | https://www.instagram.com/borntodev |
-| 4 | Description | character | https://www.facebook.com/borntodev |
-| 5 | Number_Of_Pages | numeric | https://www.youtube.com/c/BorntodevTH |
-| 6 | Type | character | https://www.instagram.com/borntodev |
-| 7 | Price | numeric | https://www.instagram.com/borntodev |
+| 1 | Rating | numeric | แสดงข้อมูลว่าผู้ใช้ให้คะแนนหนังสือเท่าไหร่ คะแนนเรตติ้งอยู่ระหว่าง 0 ถึง 5 |
+| 2 | Reviews | numeric | แสดงจำนวนบทวิจารณ์ที่พบในหนังสือเล่มนี้ |
+| 3 | Book_title | character | ชื่อหนังสือ |
+| 4 | Description | character | คำอธิบายสั้น ๆ ของหนังสือ |
+| 5 | Number_Of_Pages | numeric | แสดงจำนวนหน้าในหนังสือแต่ละเล่ม |
+| 6 | Type | character | แสดงประเภทของหนังสือ เช่น หนังสือปกแข็ง หรือ ebook หรือ Kindle book เป็นต้น |
+| 7 | Price | numeric | ราคาเฉลี่ยของหนังสือในสกุลเงิน USD ซึ่งค่าเฉลี่ยคำนวณตามแหล่งที่มาของเว็บทั้ง 5 แห่ง |
  
  
  
