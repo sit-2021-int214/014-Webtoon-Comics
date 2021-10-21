@@ -84,7 +84,15 @@ as_tibble(book)
 10   4.62       0 ZX Spectr~ "This book~             128 Pape~ 14.6 
 # ... with 261 more rows
 ```
- 
+ข้อมูลที่เห็นอยู่ในรูปแบบที่เรียกว่า tibble data format ซึ่งจะโชว์ข้อมูลของแค่ 10 แถวแรกเท่านั้น และจำนวนคอลัมน์ขึ้นอยู่กับความกว้างหน้าจอของเรา บรรทัดบนสุดเราจะเห็นข้อความลักษณะนี้:
+```
+# A tibble: 271 x 7
+```
+ตรงนี้บอกเราว่า ข้อมูลเรามี 271 rows (หรือ observations) และ มี 10 columns
+
+
+
+
 ## Resources 
 ### Important Files in Repository
 - Original Dataset : [prog_book.csv](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/assignment/HW04_63130500040/prog_book.csv) 
