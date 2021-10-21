@@ -28,7 +28,7 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 # viewdataset
 glimpse(book)
 ```
-##### Result
+##### Result :
 ```
 Rows: 271
 Columns: 7
@@ -64,11 +64,11 @@ ___
 ## Part 2 : Learning function from Tidyverse
 __Tidyverse__ คือ การรวบรวม collection R packages โดยมี package สำหรับการทำ data science แบบครบวงจร ตั้งแต่การ import data, tidy data, data manipulation ไปจนถึง visualization
 
-##### Example
+##### Example :
 ```
 as_tibble(book)
 ```
-##### Result
+##### Result :
 ```
 # A tibble: 271 x 7
    Rating Reviews Book_title Description Number_Of_Pages Type  Price
@@ -94,7 +94,40 @@ as_tibble(book)
 ___
 ## Part 3 : Transform data with dplyr and finding insight the data
 
+__1. ค่าเฉลี่ยของจำนวนหน้าคือเท่าไหร่และ มีเรื่องไหนบ้างที่มีจำนวนหน้าเกิน 1000 หน้า__
+```
+meanPage <- book$Number_Of_Pages %>% mean()
+meanPage
 
+book %>% select(Book_title, Number_Of_Pages) %>% filter(book$Number_Of_Pages > 1000)
+```
+##### Result :
+```
+> meanPage
+[1] 475.0775
+
+> book %>% select(Book_title, Number_Of_Pages) %>% filter(book$Number_Of_Pages > 1000)
+# A tibble: 16 x 2
+   Book_title                       Number_Of_Pages
+   <chr>                                      <dbl>
+ 1 Beginning Java 2                            1200
+ 2 PHP and MySQL Web Development (~            1008
+ 3 The Linux Programming Interface~            1506
+ 4 Learning Python                             1214
+ 5 The C++ Programming Language                1040
+ 6 Database System Concepts                    1142
+ 7 Introduction to Algorithms                  1180
+ 8 Game Engine Architecture                    1052
+ 9 Geometric Tools for Computer Gr~            1056
+10 Modern Operating Systems, 4th E~            1136
+11 The C++ Standard Library: A Tut~            1136
+12 Artificial Intelligence: A Mode~            1132
+13 3D Game Engine Design: A Practi~            1040
+14 Numerical Recipes: The Art of S~            1235
+15 An Introduction to Database Sys~            1040
+16 The Art of Computer Programming~            3168
+
+```
 
 ___
 ## Part 4 : Visualization with GGplot2
