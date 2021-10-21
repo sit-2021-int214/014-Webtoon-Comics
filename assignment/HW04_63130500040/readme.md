@@ -48,7 +48,7 @@ The list of books was constructed using many popular websites which provide info
  
  
 | No | columns | type | explanation |
-| :---- | :---- | :----: | ----: |
+| :---- | :---- | :---- | :---- |
 | 1 | Rating | numeric | แสดงข้อมูลว่าผู้ใช้ให้คะแนนหนังสือเท่าไหร่ คะแนนเรตติ้งอยู่ระหว่าง 0 ถึง 5 |
 | 2 | Reviews | numeric | แสดงจำนวนบทวิจารณ์ที่พบในหนังสือเล่มนี้ |
 | 3 | Book_title | character | ชื่อหนังสือ |
