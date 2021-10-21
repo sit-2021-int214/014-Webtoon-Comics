@@ -2,7 +2,7 @@
 create by Tripuwarej Paweenasombat, ID:63130500040
 
 ## Dataset
-Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, Kaggle) >> Using CSV
+Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, [Kaggle](https://www.kaggle.com/thomaskonstantin/top-270-rated-computer-science-programing-books)) >> [Using CSV](https://raw.githubusercontent.com/safesit23/INT214-Statistics/main/datasets/prog_book.csv)
 
 ```
 # Library
