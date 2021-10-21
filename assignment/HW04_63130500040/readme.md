@@ -41,7 +41,7 @@ $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14
 > __This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.__
   
  
-
-## Resources <br>
+<br />
+## Resources 
 ### Important Files in Repository
 - Original Dataset : [prog_book.csv](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/assignment/HW04_63130500040/prog_book.csv) 
