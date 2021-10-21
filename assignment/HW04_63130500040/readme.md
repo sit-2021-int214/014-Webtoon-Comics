@@ -1,4 +1,4 @@
-# R-Individual Assignment
+# R-Individual Assignment 4
 Create by Tripuwarej Paweenasombat, ID:63130500040
 
 ## Dataset
@@ -14,7 +14,7 @@ __Top 270 Computer Science / Programing Books__ (Data from Thomas Konstantin, [K
 4. Visualization with GGplot2 <br />
 
 
-## 1. Explore the dataset
+## Part 1 : Explore the dataset
 ```
 # Library
 library(dplyr)
@@ -57,10 +57,10 @@ The list of books was constructed using many popular websites which provide info
 | 4 | Description | character | คำอธิบายสั้น ๆ ของหนังสือ |
 | 5 | Number_Of_Pages | numeric | แสดงจำนวนหน้าในหนังสือแต่ละเล่ม |
 | 6 | Type | character | แสดงประเภทของหนังสือ เช่น หนังสือปกแข็ง หรือ ebook หรือ Kindle book เป็นต้น |
-| 7 | Price | numeric | ราคาเฉลี่ยของหนังสือในสกุลเงิน USD ซึ่งค่าเฉลี่ยคำนวณตามแหล่งที่มาของเว็บทั้ง 5 แห่ง |
+| 7 | Price | numeric | แสดงราคาเฉลี่ยของหนังสือในสกุลเงิน USD ซึ่งค่าเฉลี่ยคำนวณตามแหล่งที่มาของเว็บทั้ง 5 แห่ง |
  
  
-## 
+## Part 2 : Learning function from Tidyverse
  
  
  
