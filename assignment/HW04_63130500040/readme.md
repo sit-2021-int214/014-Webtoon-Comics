@@ -29,4 +29,4 @@ View(book)
 
 ## Resources
 ### Important Files in Repository
-- Original Dataset : [Top 270 Computer Science.csv](midterm/Webtoon_Dataset.csv) 
+- Original Dataset : [prog_book.csv](midterm/Webtoon_Dataset.csv) 
