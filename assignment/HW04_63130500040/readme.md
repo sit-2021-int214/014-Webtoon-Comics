@@ -8,7 +8,7 @@ Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, [Kaggl
 1. Explore the dataset
 2. Learning function from Tidyverse
 3. Transform data with dplyr and finding insight the data
-4. Visualization with GGplot2
+4. Visualization with GGplot2 <br />
 
 
 # 1. Explore the dataset <br />
