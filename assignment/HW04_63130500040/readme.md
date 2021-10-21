@@ -24,7 +24,6 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 
 # viewdataset
 glimpse(book)
-View(book)
 ```
 
 ## Resources
