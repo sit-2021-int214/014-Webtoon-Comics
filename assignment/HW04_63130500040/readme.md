@@ -91,6 +91,16 @@ as_tibble(book)
 ตรงนี้บอกเราว่า ข้อมูลเรามี 271 rows (หรือ observations) และ มี 10 columns
 
 
+## Part 3 : Transform data with dplyr and finding insight the data
+
+
+
+
+## Part 4 : Visualization with GGplot2
+
+
+
+
 
 
 ## Resources 
