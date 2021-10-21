@@ -38,7 +38,7 @@ $ Type            <chr> "Hardcover", "Hardcover", "Kindle Edition", "Hardcover",
 $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14.188235,~
 ```
 
-__This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset. __
+__This dataset is high rated book information in the field of computer science and programing. There are 270 rows and 7 columns in this dataset.__
   
  
 
