@@ -26,3 +26,7 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 glimpse(book)
 View(book)
 ```
+
+## Resources
+### Important Files in Repository
+- Original Dataset : [Top 270 Computer Science.csv](midterm/Webtoon_Dataset.csv) 
