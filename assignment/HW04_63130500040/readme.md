@@ -89,7 +89,7 @@ as_tibble(book)
 ```
 # A tibble: 271 x 7
 ```
-ตรงนี้บอกเราว่า ข้อมูลเรามี 271 rows (หรือ observations) และ มี 10 columns
+ตรงนี้บอกเราว่า ข้อมูลเรามี 271 rows (หรือ observations) และ มี 7 columns
 
 ___
 ## Part 3 : Transform data with dplyr and finding insight the data
