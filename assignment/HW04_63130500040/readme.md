@@ -1,7 +1,10 @@
-## R-Individual Assignment
+# R-Individual Assignment
 create by Tripuwarej Paweenasombat, ID:63130500040
 
-{R} 
+## Dataset
+Top 270 Computer Science / Programing Books (Data from Thomas Konstantin, Kaggle) >> Using CSV
+
+```
 # Library
 library(dplyr)
 library(stringr)
@@ -14,4 +17,4 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 # viewdataset
 glimpse(book)
 View(book)
-
+```
