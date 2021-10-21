@@ -42,6 +42,6 @@ $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14
   
  
 
-## Resources
+## Resources <br>
 ### Important Files in Repository
 - Original Dataset : [prog_book.csv](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/assignment/HW04_63130500040/prog_book.csv) 
