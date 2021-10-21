@@ -29,4 +29,4 @@ View(book)
 
 ## Resources
 ### Important Files in Repository
-- Original Dataset : [prog_book.csv](assignment/HW04_63130500040/prog_book.csv) 
+- Original Dataset : [prog_book.csv](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/assignment/HW04_63130500040/prog_book.csv) 
