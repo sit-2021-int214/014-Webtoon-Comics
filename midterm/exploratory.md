@@ -33,8 +33,6 @@ View(webToon)
 
 ## 1. การ์ตูนเรื่องที่มียอดไลค์มากที่สุด 
 
-Explain here
-
 เปลี่ยน Webtoon$Likes จาก character เป็น numberic และเช็คว่าเปลี่ยนเป็น numberic แล้ว
 
 ```
@@ -47,7 +45,7 @@ is.numeric(webToon$Likes)
 webToon %>% filter(Likes == max(Likes,na.rm = TRUE))
 ```
 
-Result
+Result :
 
 ```
  id                    Name   Writer    Likes         Genre Rating Subscribers
@@ -58,63 +56,67 @@ Result
 1 UP EVERY MON, WED, FRI https://www.webtoons.com/en/slice-of-life/my-giant-nerd-boyfriend/list?title_no=958
 
 ```
-## 2. การ์ตูนเรื่องที่มียอด Subscriber มากที่สุด
+##### Summary :
+- การ์ตูนที่มียอดกด Like มากที่สุดคือ `My Giant Nerd Boyfriend` โดยมียอดไลค์ที่ `50,600,000`
 
-Explain here
+
+
+## 2. การ์ตูนเรื่องที่มียอด Subscriber มากที่สุด
 
 ```
 webToon %>% select(id,Name,Subscribers) %>% filter(Subscribers == max(Subscribers,na.rm = TRUE))
 ```
 
-Result
+Result :
 
 ```   
    id                 Name Subscribers
 1 214 Everywhere & Nowhere     7506000
 ```
+##### Summary :
+- การ์ตูนที่มียอดกด subscibe มากที่สุดคือ `Everywhere & Nowhere` โดยมียอด subscibe ที่ `7,506,000`
 
 
-## 3. จำนวนการ์ตูนทั้งหมดของแต่ละหมวดหมู่
 
-Explain here
+## 3. จำนวนการ์ตูนทั้งหมดของแต่ละหมวดหมู่ โดยเรียงจากหมวดหมู่ที่มีจำนวนการ์ตูนมากที่สุด
 
 ```
-webToon %>% group_by(Genre) %>% count() %>% rename(Total = n)
+webToon %>% group_by(Genre) %>% count() %>% rename(Total = n) %>% arrange(desc(Total))
 ```
 
-Result
+Result :
 
 ```           
    Genre         Total
    <chr>         <int>
- 1 Action           47
- 2 Comedy           52
+ 1 Fantasy          95
+ 2 Romance          90
  3 Drama            60
- 4 Fantasy          95
- 5 Heartwarming      2
- 6 Historical        4
- 7 Horror           20
- 8 Informative       5
- 9 Mystery           9
-10 Romance          90
-11 Sci-fi           32
-12 Slice of life    49
-13 Sports           10
-14 Superhero        26
-15 Supernatural     33
-16 Thriller         35
+ 4 Comedy           52
+ 5 Slice of life    49
+ 6 Action           47
+ 7 Thriller         35
+ 8 Supernatural     33
+ 9 Sci-fi           32
+10 Superhero        26
+11 Horror           20
+12 Sports           10
+13 Mystery           9
+14 Informative       5
+15 Historical        4
+16 Heartwarming      2
 ```
+##### Summary :
+- `มีการ์ตูนทั้งหมด 16 หมวด` โดยมีการ์ตูนหมวด Fantasy มากที่สุดที่ 95 เรื่อง และการ์ตูนหมวด Fantasy น้อยที่สุดที่ 2 เรื่อง
 
 
 ## 4. การ์ตูนเรื่องที่อัปเดตครบทุกตอนแล้วและมี rating มากกว่า 9.50
-
-Explain here
 
 ```
 webToon %>% select(id,Name,Genre,Rating) %>%filter(webToon$Update == "COMPLETED", webToon$Rating>9.50, na.rm = TRUE)
 ```
 
-Result
+Result :
 
 ```           
      id                            Name         Genre Rating
@@ -131,15 +133,18 @@ Result
 # ... with 119 more rows
 ```
 
-## 5. ผู้แต่ง Taejun Pak เขียนการ์ตูนเรื่องไหนบ้าง
+##### Summary :
+- `มีการ์ตูนเรื่องที่อัปเดตครบทุกตอนแล้วและมี rating มากกว่า 9.50 ทั้งหมด 129 เรื่อง`
 
-Explain here
+
+
+## 5. ผู้แต่ง Taejun Pak เขียนการ์ตูนเรื่องไหนบ้าง
 
 ```
 webToon %>% select(Name,Writer,Likes,Genre,Rating) %>%filter(webToon$Writer == "Seokwoo", na.rm = TRUE)
 ```
 
-Result
+Result :
 
 ```
               Name  Writer   Likes   Genre Rating
@@ -147,4 +152,5 @@ Result
 2     Days of Hana Seokwoo 1000000   Drama   9.77
 3 ORANGE MARMALADE Seokwoo  987300 Romance   9.68
 ```   
-
+##### Summary :
+- `ผู้แต่ง Taejun Pak ได้เขียนการ์ตูนทั้งหมด 3 เรื่อง ได้แก่ She's Hopeless , Days of Hana และ ORANGE MARMALADE `
