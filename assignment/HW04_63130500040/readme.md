@@ -27,9 +27,12 @@ book <- read_csv("https://raw.githubusercontent.com/safesit23/INT214-Statistics/
 
 # viewdataset
 glimpse(book)
+summary(book)
+
 ```
 ##### Result :
 ```
+> glimpse(book)
 Rows: 271
 Columns: 7
 $ Rating          <dbl> 4.17, 4.01, 3.33, 3.97, 4.06, 3.84, 4.09, 4.15, 3.87, 4.62, 4.03~
@@ -40,6 +43,30 @@ $ Number_Of_Pages <dbl> 105, 527, 50, 393, 305, 288, 256, 368, 259, 128, 352, 35
 $ Type            <chr> "Hardcover", "Hardcover", "Kindle Edition", "Hardcover", "Kindle~
 $ Price           <dbl> 9.323529, 11.000000, 11.267647, 12.873529, 13.164706, 14.188235,~
 ```
+```
+> summary(book)
+     Rating         Reviews        Book_title       
+ Min.   :3.000   Min.   :   0.0   Length:271        
+ 1st Qu.:3.915   1st Qu.:   5.5   Class :character  
+ Median :4.100   Median :  35.0   Mode  :character  
+ Mean   :4.067   Mean   : 185.6                     
+ 3rd Qu.:4.250   3rd Qu.: 116.5                     
+ Max.   :5.000   Max.   :5938.0                     
+ Description        Number_Of_Pages      Type          
+ Length:271         Min.   :  50.0   Length:271        
+ Class :character   1st Qu.: 289.0   Class :character  
+ Mode  :character   Median : 384.0   Mode  :character  
+                    Mean   : 475.1                     
+                    3rd Qu.: 572.5                     
+                    Max.   :3168.0                     
+     Price        
+ Min.   :  9.324  
+ 1st Qu.: 30.751  
+ Median : 46.318  
+ Mean   : 54.542  
+ 3rd Qu.: 67.854  
+ Max.   :235.650  
+ ```
 
 ### Context
 > This dataset holds a list of 270 books in the field of computer science and programming related topics.
@@ -129,7 +156,7 @@ book %>% select(Book_title, Number_Of_Pages) %>% filter(book$Number_Of_Pages > 1
 
 ```
 ##### Explain :
-- select เลือกให้ข้อมูลเฉพาะ column(Book_title, Number_Of_Pages)
+- select เลือกให้แสดงข้อมูลเฉพาะ column(Book_title, Number_Of_Pages)
 - filter ใส่เงื่อนไขที่จำนวนหน้าต้องมากกว่า 1000 หน้า
 
 __2. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
@@ -163,7 +190,8 @@ book %>% select(Book_title, Number_Of_Pages, Price) %>% filter(book$Price > mean
 # ... with 95 more rows
 ```
 ##### Explain :
-
+- select เลือกให้แสดงข้อมูลเฉพาะ column(Book_title, Number_Of_Pages, Price)
+- filter ใส่เงื่อนไขว่าให้แสดงจำนวนหน้าของหนังสือที่มีราคามากกว่าค่าเฉลี่ย
 
 
 __3. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
