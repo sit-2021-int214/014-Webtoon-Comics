@@ -194,58 +194,107 @@ book %>% select(Book_title, Number_Of_Pages, Price) %>% filter(book$Price > mean
 - filter ใส่เงื่อนไขว่าให้แสดงจำนวนหน้าของหนังสือที่มีราคามากกว่าค่าเฉลี่ย
 
 
-__3. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+__3. แสดง type ของหนังสือว่ามี type อะไรบ้างและแต่ละ type มีจำนวนเท่าไหร่__
 
 ```
+book %>% group_by(Type) %>% count()
+```
+##### Result :
+```
+  Type                      n
+  <chr>                 <int>
+1 Boxed Set - Hardcover     1
+2 ebook                     7
+3 Hardcover                95
+4 Kindle Edition           10
+5 Paperback               156
+6 Unknown Binding           2
+```
+##### Explain :
+- group_by จัดกลุ่มด้วย type แล้วแสดงออกมาว่ามี type อะไรบ้าง
+- count ใช้นับว่าแต่ละ type มีหนังสือกี่เล่ม
+
+
+__4.แสดงหนังสือที่มีราคามากที่สุดและน้อยที่สุด__
+
+```
+#Max Price
+book %>% select(-Reviews, -Description) %>% filter(book$Price == max(Price))
+
+#Min Price
+book %>% select(-Reviews, -Description) %>% filter(book$Price == min(Price))
 
 ```
 ##### Result :
 ```
+# Max Price
+  Rating  Book_title             Number_Of_Pages  Type   Price
+   <dbl>  <chr>                            <dbl>  <chr>  <dbl>
+1   3.84  A Discipline for Soft~             789  Hardc~  236.
+
+# Min Price
+Rating    Book_title             Number_Of_Pages  Type     Price
+   <dbl>  <chr>                            <dbl>  <chr>    <dbl>
+1   4.17  The Elements of Sty~               105  Hardcov~  9.32
 
 ```
 ##### Explain :
+* select(-column) คอลัมน์ที่เลือกจะไม่แสดงข้อมูลออกมา และจะแสดงคอลัมน์ที่เหลือแทน
+* filter ใส่เงื่อนไขว่าให้แสดงหนังสือที่มีราคามากที่สุดและน้อยที่สุด
+  * max(Price) หาค่า Price ที่มากที่สุด
+  * min(Price) หาค่า Price ที่น้อยที่สุด
 
 
 
-__4. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+__5. แสดงชื่อเรื่องและจำนวน reviews ของหนังสือที่มีคน reviews มากที่สุด 5 อันดับแรก__
 
 ```
-
+book %>% select(Book_title, Reviews) %>% arrange(desc(Reviews)) %>% head(n = 5L)
 
 ```
 ##### Result :
 ```
-
+ Book_title                                         Reviews
+  <chr>                                                <dbl>
+1 Start with Why: How Great Leaders Inspire Everyon~    5938
+2 The Elements of Style                                 3829
+3 The Phoenix Project: A Novel About IT, DevOps, an~    2629
+4 The Goal: A Process of Ongoing Improvement            2290
+5 Weapons of Math Destruction: How Big Data Increas~    2093
 ```
 ##### Explain :
+- select เลือกให้แสดงข้อมูลเฉพาะ column(Book_title, Reviews)
+- arrange(desc(Reviews)) ให้เรียงลำดับจำนวน review จากมากไปน้อย
+- head(n = 5L) เลือกแสดงข้อมูลของ 5 อันดับแรก
 
 
 
-__5. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
+__6. แสดงหนังสือที่มีจำนวนหน้าตั้งแต่ 100 ถึง 200 หน้า__
 
 ```
-
+book %>% select(Book_title, Number_Of_Pages) %>% filter(between(Number_Of_Pages,100,200)) 
 
 ```
 ##### Result :
 ```
-
+Book_title                                Number_Of_Pages
+   <chr>                                               <dbl>
+ 1 The Elements of Style                                 105
+ 2 ZX Spectrum Games Code Club: Twenty fun ~             128
+ 3 Ship It!                                              200
+ 4 Debugging: The 9 Indispensable Rules for~             192
+ 5 What Is Life? with Mind and Matter and A~             184
+ 6 JavaScript: The Good Parts                            153
+ 7 The Pattern on the Stone: The Simple Ide~             176
+ 8 The Connection Machine                                190
+ 9 Agile Retrospectives: Making Good Teams ~             170
+10 Scrum and XP from the Trenches                        140
+# ... with 12 more rows
 ```
 ##### Explain :
-
-
-
-__6. ค่าเฉลี่ยของราคาหนังสือคือเท่าไหร่และเล่มที่มีราคาเกินค่า mean แต่ละเล่มมีกี่หน้า__
-
-```
-
-
-```
-##### Result :
-```
-
-```
-##### Explain :
+* select เลือกให้แสดงข้อมูลเฉพาะ column(Book_title, Number_Of_Pages)
+* filter() ใส่เงื่อนไขที่จะให้ข้อมูลแสดงออกมา 
+  * between(Number_Of_Pages,100,200) กำหนดให้ช่วงข้อมูลอยู่ระหว่างหนังสือที่มีจำนวนหน้า 100 ถึง 200 หน้า
 
 
 
