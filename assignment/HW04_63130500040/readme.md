@@ -301,10 +301,35 @@ Book_title                                Number_Of_Pages
 ___
 ## Part 4 : Visualization with GGplot2
 
+__1. The graph depicts the number of books available in each price level.__
+```
+numPrice_plot <- ggplot(book,aes(x=Price))+ geom_histogram(binwidth = 10) + ggtitle("Number of books available in each price level.") 
+numPrice_plot
+```
+##### Result :
+![image](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/assignment/HW04_63130500040/g1.png)
+
+##### Explain :
+* กราฟนี้แสดงจำนวนหนังสือที่มีในราคาแต่ละช่วง
+  * binwidth ใช้ระบุความกว้างของแต่ละช่อง
+  * ggtitle ใช้ระบุหัวข้อของกราฟ
 
 
 
+__2. The graph depicting the price-to-rating relationship.__
+```
+rp_plot <- book %>% ggplot(aes(x=Price, y=Rating)) + geom_point(aes(color=Type)) + ggtitle("Price-to-Rating relationship")+ geom_smooth(method = "lm")
+rp_plot
+```
+##### Result :
+![image](https://github.com/sit-2021-int214/014-Webtoon-Comics/blob/main/assignment/HW04_63130500040/g2.png)
 
+##### Explain :
+* กราฟนี้แสดงความสัมพันธ์ระหว่าง Price กับ Rating 
+  * geom_smooth(method = "lm") คือการเติมเส้นเพื่อดู best fit ของข้อมูล 
+  * lm ย่อมาจาก linear model
+
+___
 
 ## Resources 
 ### Important Files in Repository
