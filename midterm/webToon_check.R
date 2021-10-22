@@ -61,6 +61,40 @@ is.character(webToon$Reading.Link) #TRUE
 assert_is_character(webToon$Reading.Link) 
 
 
+#Define Question and Data Analysis
+#1.1--------------------------------------------------------------------
+
+is.character(webToon$Likes)
+webToon$Likes <- as.numeric(webToon$Likes)
+is.numeric(webToon$Likes)
+
+max(webToon$Likes,na.rm = TRUE)
+
+#1.2------------------------------------------------------------
+#Max
+webToon %>% select(Name,Likes,Genre) %>% filter(Likes == max(Likes))
+#Min
+webToon %>% select(Name,Likes,Genre) %>% filter(Likes == min(Likes))
+
+
+#2----------------------------------------
+#Max
+webToon %>% select(id,Name,Subscribers) %>% filter(Subscribers == max(Subscribers,na.rm = TRUE))
+#Min
+webToon %>% select(id,Name,Subscribers) %>% filter(Subscribers == min(Subscribers,na.rm = TRUE))
+
+
+#3-----------------------------------
+webToon %>% group_by(Genre) %>% count() %>% rename(Total = n) %>% arrange(desc(Total))
+
+#4 --------------------------------------------
+
+webToon %>% select(id,Name,Genre,Rating) %>%filter(webToon$Update == "COMPLETED", webToon$Rating>9.50, na.rm = TRUE)
+
+
+#5--------------------------------------------------------
+
+webToon %>% select(Name,Writer,Likes,Genre,Rating) %>%filter(webToon$Writer == "Seokwoo", na.rm = TRUE)
 
 
 
