@@ -17,10 +17,7 @@ is.na(books) %>% table()
 
 
 #Part2 -------------------------------------------------------------
-
 books %>% filter(Reviews > 2000)
-books %>% select(Book_title,Type)
-books %>% arrange(Rating)
 
 #Part3 ------------------------------------------------------------
 
