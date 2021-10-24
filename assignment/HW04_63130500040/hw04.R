@@ -14,12 +14,10 @@ View(book)
 
 
 #Part2 --------------------------------------------------
-#install.packages("tidyverse")
-#library(tidyverse)
+install.packages("tidyverse")
+library(tidyverse)
 
-#as_tibble(book)
-summary(book)
-
+as_tibble(book)
 
 
 #Part3 --------------------------------------------------
@@ -44,7 +42,6 @@ book %>% group_by(Type) %>% count()
 # 4.
 #Max
 book %>% select(-Reviews, -Description) %>%filter(book$Price == max(Price))
-
 #Min
 book %>% select(-Reviews, -Description) %>%filter(book$Price == min(Price))
 
