@@ -33,7 +33,7 @@ There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscr
 ## Table of Contents
 1. [Exploratory Data Analysis](midterm/exploratory.md)
 2. [Data Visualization]() 
-3. [Analytical Inferential Statistic]()
+3. [Analytical Inferential Statistic](final/Hypothesis_Testing.md)
 
 
 ## Resources
