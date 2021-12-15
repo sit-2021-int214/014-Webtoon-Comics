@@ -1,3 +1,4 @@
+## Hypothesis testing
 Step 0: Assign variables
 
 ```
