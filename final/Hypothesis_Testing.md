@@ -1,6 +1,8 @@
-# Hypothesis testing
+# Analytical Inferential Statistics
 
-## Question : การ์ตูนประเภท Romance ใน webtoon มี rating มากกว่า 9.5
+## Hypothesis testing
+
+### Question : การ์ตูนประเภท Romance ใน webtoon มี rating มากกว่า 9.5
 
 #### Step 0 : Assign variables
 
@@ -105,5 +107,4 @@ lower = 7.572842
 ```
 
 #### Step 7 : Conclusion
-
 - จากการทดสอบสมมติฐานสรุปได้ว่าการ์ตูนประเภท Romance ใน webtoon มี rating มากกว่า 9.5
