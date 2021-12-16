@@ -29,6 +29,7 @@ There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscr
 - R Language
 - R Studio Desktop
 - Google Sheets
+- Power BI
 
 ## Table of Contents
 1. [Exploratory Data Analysis](midterm/exploratory.md)
