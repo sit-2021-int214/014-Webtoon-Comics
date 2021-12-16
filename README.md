@@ -32,7 +32,7 @@ There are 10 columns in total which are id,Name,Writer,Likes,Genre,Rating,Subscr
 
 ## Table of Contents
 1. [Exploratory Data Analysis](midterm/exploratory.md)
-2. [Data Visualization]() 
+2. [Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiMWJmNzE5NjItNDZmMy00YmQ1LThiOTYtOWU2ZDA4OTg1ZjM0IiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D&pageName=ReportSection) 
 3. [Analytical Inferential Statistic](final/Hypothesis_Testing.md)
 
 
